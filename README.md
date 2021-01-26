@@ -1,15 +1,9 @@
-<p align="center">
-
-<img src="./images/logo.png" height="150px"  />
-
-</p>
-
 ![message](./images/message.png)
 
 # Quickstart
 
-- `git clone https://github.com/acharyaroshanji/QuantaChat.git`
-- `cd QuantaChat`
+- `git clone https://github.com/coderosh/gqlchat.git`
+- `cd gqlchat`
 - `yarn install`
 - `cd client`
 - `yarn install`
