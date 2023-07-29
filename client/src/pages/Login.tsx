@@ -1,20 +1,20 @@
-import React, { useContext } from 'react';
-import { AuthContext } from '../contexts/AuthContext';
-import herosvg from '../assets/hero.svg';
-import oAuthWindow from '../utils/oAuthWindow';
-import Nav from '../components/Nav';
+import React, { useContext } from 'react'
+import { AuthContext } from '../contexts/AuthContext'
+import herosvg from '../assets/hero.svg'
+import oAuthWindow from '../utils/oAuthWindow'
+import Nav from '../components/Nav'
 
 const LoginPage: React.FC = () => {
-  const authContext = useContext(AuthContext);
+  const authContext = useContext(AuthContext)
 
   const onLoginSuccess = () => {
-    authContext.login();
-  };
+    authContext.login()
+  }
 
   return (
     <div
       style={{ minHeight: '100vh' }}
-      className="leading-normal tracking-normal text-white gradient"
+      className="leading-normal tracking-normal text-white bg-gray-900"
     >
       <Nav />
       <div className="pt-24">
@@ -43,7 +43,7 @@ const LoginPage: React.FC = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default LoginPage;
+export default LoginPage
